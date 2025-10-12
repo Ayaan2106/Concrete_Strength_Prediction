@@ -1,4 +1,4 @@
-Concrete Strength Prediction API
+Concrete Strength Prediction API:
 
 A simple FastAPI app that predicts the compressive strength of concrete using a trained machine learning model.
 
@@ -10,7 +10,7 @@ The API uses a saved model (concrete_model.pkl) to predict the concrete strength
 
 You can test it easily using FastAPI’s built-in interactive interface.
 
-Setup 🛠️
+Setup 🛠️:
 
 Clone the repository
 
