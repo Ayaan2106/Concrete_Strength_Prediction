@@ -1,8 +1,12 @@
-# Concrete Strength Prediction
+Concrete Strength Prediction Model
 
-Predicting compressive strength of concrete using XGBoost, Random Forest, and K-Nearest Neighbours.
+This repository contains a machine learning model that predicts the compressive strength of concrete in MPa using input features like cement, water, and age. The model is trained with XGBoost, k-nearest neighbour, and random forest. The setup includes tools for visualisation and analysis.
 
-## What’s included
-- `Recognition of Concrete Code - Final.ipynb` — Full analysis & results (notebook).
-- `Concrete_Data.csv` — Dataset (original encoding required: `latin1`).
-- Plots are generated in the notebook; key results: XGBoost R² ≈ 0.93, MAE ≈ 2.72 are generated in a table. 
+Features
+-Predict concrete compressive strength using a pre-trained model.
+-Visualize data and predictions with matplotlib and seaborn.
+-Display results in tabular format using tabulate.
+-Easy setup with a clean requirements.txt for reproducibility.
+
+Requirements
+The project requires Python 3.10+ and the following packages (already included in requirements.txt):
