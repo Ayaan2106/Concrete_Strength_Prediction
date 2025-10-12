@@ -17,20 +17,15 @@ Clone the repository
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
 
-
 (Optional) Create a virtual environment
 
 python -m venv venv
-# Windows
 venv\Scripts\activate
-# macOS/Linux
-source venv/bin/activate
 
 
 Install dependencies
 
 pip install -r requirements.txt
-
 
 Add your trained model
 Make sure the file concrete_model.pkl is in the same folder as main.py.
