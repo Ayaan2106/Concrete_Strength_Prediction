@@ -24,9 +24,6 @@ The model is trained and evaluated using **XGBoost**, **k-Nearest Neighbour**, a
 ├── requirements.txt
 └── README.md
 
-yaml
-Copy code
-
 ---
 
 ## ⚙️ Setup & Usage
